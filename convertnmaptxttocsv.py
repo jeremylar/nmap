@@ -42,7 +42,7 @@ for line in f:
                 output.append(mac)
                 output.append(vendor)   
                 items.append(output)
-            elif len(lineitem) == 6:
+            elif len(lineitem) == 7:
                 mac = lineitem[2]
                 vendor = lineitem[-4] +" "+ lineitem[-3] +" "+ lineitem[-2] +" "+ lineitem[-1]
                 output.append(mac)
